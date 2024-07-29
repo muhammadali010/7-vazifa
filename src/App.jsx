@@ -18,6 +18,7 @@ const App = () => {
           <img src={product.image} alt={product.name} className="card-img" />
           <h2 className="card-title">{product.name}</h2>
           <p className="card-description">comments:{product.comments}</p>
+          <p>Category : {product.category}</p>
           <p className="card-price">${product.newPrice}</p>
         </div>
       ))}
