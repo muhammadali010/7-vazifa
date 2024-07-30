@@ -2,6 +2,12 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
 .products-container {
   display: flex;
   flex-wrap: wrap;
@@ -26,14 +32,12 @@ body {
 }
 
 .product-detail {
-  display: flex;
   padding: 20px;
-  gap: 20px;
   max-width: 600px;
   margin: auto;
 }
 
-.product-detail div img {
+.product-detail img {
   width: 100%;
   height: auto;
 }
